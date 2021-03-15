@@ -3,7 +3,7 @@ locals {
 }
 
 data "aws_ecr_repository" "this" {
-  name = "snowiow/${local.container_name}"
+  name = "tariqhamid/${local.container_name}"
 }
 
 resource "aws_cloudwatch_log_group" "this" {

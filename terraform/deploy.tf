@@ -372,7 +372,7 @@ resource "aws_codepipeline" "this" {
 
       configuration = {
         OAuthToken = "${var.github_token}"
-        Owner      = "snowiow"
+        Owner      = "tariqhamid"
         Repo       = "green-blue-ecs-example"
         Branch     = "master"
       }
